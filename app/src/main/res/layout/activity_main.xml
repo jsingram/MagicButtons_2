@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.ingramintegrations.magicbuttons.MainActivity">
+
+    <Button
+        android:id="@+id/act_main_bt_normal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Normal" />
+
+    <net.ingramintegrations.magicbuttons.MagicButton
+        android:id="@+id/magic_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/fb_logo"
+        app:button_icon_width="25dp"
+        app:button_icon_height="25dp"
+        app:hide_text="Facebook"
+        app:hide_text_size="6dp"
+        app:hide_text_color="@android:color/white"
+        app:icon_button_color="@color/colorFacebookPrimary"
+        app:expandable_area_color="@color/colorFacebookSecondary"
+        android:layout_below="@+id/act_main_bt_normal_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="58dp" />
+
+    <net.ingramintegrations.magicbuttons.MagicButton
+        android:id="@+id/github_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/magic_button"
+        android:layout_alignStart="@+id/magic_button"
+        android:layout_below="@+id/magic_button"
+        android:layout_marginTop="14dp"
+        app:button_icon="@drawable/github_icon"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="@color/colorGitHubSecondary"
+        app:hide_text="GitHub"
+        app:hide_text_color="@android:color/white"
+        app:hide_text_size="6dp"
+        app:icon_button_color="@color/colorGitHubPrimary"
+        app:magic_button_size="50dp" />
+
+    <net.ingramintegrations.magicbuttons.MagicButton
+        android:id="@+id/twitter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/magic_button"
+        android:layout_alignStart="@+id/magic_button"
+        android:layout_below="@+id/github_button"
+        android:layout_marginTop="14dp"
+        app:button_icon="@drawable/twitter_icon"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="@color/colorTwitterSecondary"
+        app:hide_text="Twitter"
+        app:hide_text_color="@android:color/white"
+        app:hide_text_size="6dp"
+        app:icon_button_color="@color/colorTwitterPrimary"
+        app:magic_button_size="50dp" />
+
+</RelativeLayout>

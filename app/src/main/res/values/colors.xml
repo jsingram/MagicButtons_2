@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#3f3f3f</color>
+    <!--Colors setup for our social media MagicButtons-->
+    <color name="colorFacebookPrimary">#365797</color>
+    <color name="colorFacebookSecondary">#1f3462</color>
+    <color name="colorGitHubPrimary">#454546</color>
+    <color name="colorGitHubSecondary">#1b1c1f</color>
+    <color name="colorTwitterPrimary">#cdced3</color>
+    <color name="colorTwitterSecondary">#4083db</color>
+</resources>
